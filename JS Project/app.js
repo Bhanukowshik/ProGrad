@@ -135,7 +135,7 @@ for(i=0;i<len;i++)
     data=data.substring(1);
     // console.log(typeof(data));
     changedirection(stepint,data);
-    console.log("Updated position of queen : ["+queen.position.x,queen.position.y+"]");
+    console.log("Updated position of queen after "+move[i]+"    movement : ["+queen.position.x,queen.position.y+"]");
 
 }
 
